@@ -5,3 +5,9 @@
     --common-color: #2986cc;
     --rare-color: #c90076;
 }
+
+body {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
