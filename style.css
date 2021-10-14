@@ -20,5 +20,45 @@ body {
 main {
     background-color: var(--main-color);
     width: 80%;
+    max-width: 30em;
     height: 20em;
+    text-align: center;
+}
+
+/* --------------------------------- IDs --------------------------------- */
+
+/* Button CSS */
+
+#button {
+    background-color: var(--secondary-color);
+    color: var(--tert-color);
+    width: 80%;
+    padding: 0.5em;
+    margin: 1em auto;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px var(--secondary-color);
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: var(--tert-color);
+    color: var(--secondary-color);
+    box-shadow: 10px 10px 15px var(--secondary-color);
+}
+
+#button:active {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    transition: 0.1s;
+}
+
+/* /Button CSS */
+
+/* Content CSS */
+
+#content {
+    border: 2px solid var(--secondary-color);
+    width: 80%;
+    margin: auto;
+    height: 54%;
 }
