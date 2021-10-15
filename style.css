@@ -29,6 +29,10 @@ main {
     text-align: center;
 }
 
+#color {
+    color: var(--tert-color);
+}
+
 /* --------------------------------- IDs --------------------------------- */
 
 /* Button CSS */
