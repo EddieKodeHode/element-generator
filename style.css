@@ -1,7 +1,7 @@
 :root {
     --main-color: #222124;
     --secondary-color: #0d0c0e;
-    --tert-color: #706f75;
+    --tert-color: #c8c6ce;
     --common-color: #2986cc;
     --rare-color: #c90076;
 }
@@ -19,6 +19,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Josefin Sans', sans-serif;
+    color: var(--tert-color);
 }
 
 main {
