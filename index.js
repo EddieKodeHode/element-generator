@@ -64,31 +64,31 @@ function rareRoll() {
     rareElement = randomNumber(1, 7)
     if (rareElement == 7) {
         elementHere.innerText = "Light"
-        descHere.innerText = "Blinded by the light"
+        descHere.innerText = "An element that lets you create lightsources, and illusions."
     }
     else if (rareElement == 6) {
         elementHere.innerText = "Shadow"
-        descHere.innerText = "Shadow"
+        descHere.innerText = "An element that lets you create shadowpuppets, manifest items, etc."
     }
     else if (rareElement == 5) {
         elementHere.innerText = "Metal"
-        descHere.innerText = "bling bling"
+        descHere.innerText = "Ability to create and control processed minerals."
     }
     else if (rareElement == 4) {
         elementHere.innerText = "Electric"
-        descHere.innerText = "bzzt"
+        descHere.innerText = "Zap zap. Ability to create electricity."
     }
     else if (rareElement == 3) {
         elementHere.innerText = "Poison"
-        descHere.innerText = "Uh oh toxic"
+        descHere.innerText = "Ability to create toxic gas, liquid, etc. Can be quite lethal. Better resistance to poison and diseases."
     }
     else if (rareElement == 2) {
         elementHere.innerText = "Ice"
-        descHere.innerText = "Brrr chilly"
+        descHere.innerText = "Ability to control ice and cold. Better resistance to cold."
     }
     else if (rareElement == 1) {
         elementHere.innerText = "Nature"
-        descHere.innerText = "Flower power"
+        descHere.innerText = "Magically summon plants to help you. Naturally better gardener. Use magic to give your crops a boost!"
     }
     else {
         elementHere.innerText = "Error"
